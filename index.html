@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Your existing styles */
+        .navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+            color: #000 !important; 
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f1e9e9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        header h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .guidance {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .guide-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .product-section
+        {
+            background-color: #f7f7f7;
+        }
+        .product-section .row {
+            justify-content: space-between; /* Ensure even spacing between items */
+        }
+        .product-item img {
+            width: 200px; /* Ensure images fit their containers */
+            height: 200px;
+            object-fit:cover;
+        }
+        h1 {
+    color: black;
+    text-align: center; /* Centers the text */
+    font-size: 2em; /* Adjust as needed */
+    margin-bottom: 30px; /* Space below the heading */
+}
+        .product-item {
+            text-align: center; /* Center-align text */
+        }
+        .col-12 {
+            flex: 0 0 19%; /* Make sure each column takes up 19% of the row, allowing for 5 items */
+            max-width: 19%;
+        }
+        .mb-5 {
+            margin-bottom: 10px; /* Reduce spacing between items */
+        }
+        .guide-image {
+            float: right; 
+            width: 37%; 
+            height: auto;
+            margin-right: 20px; 
+            border-radius: 9px;
+        }
+        .navbar-nav .nav-link {
+            text-decoration: none; 
+        }
+        .navbar-brand {
+            text-decoration: none;
+        }
+        .guide-title {
+            font-size: 1.8em;
+            margin: 0;
+            color: #333;
+        }
+        .guide-summary {
+            font-size: 1em;
+            color: #555;
+            margin: 10px 0;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .guide-item:hover {
+            transform: scale(1.02);
+        }
+        .blogs-section .row {
+            justify-content: space-between; /* Ensure even spacing between items */
+        }
+       
+
+.blogs-section {
+    /* padding: 60px 0; */
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+        .blogs-section img {
+            width: 200px; /* Ensure images fit their containers */
+            height: 200px;
+            object-fit:contain;
+        }
+       
+        .col-12 {
+            flex: 0 0 19%; /* Make sure each column takes up 19% of the row, allowing for 5 items */
+            max-width: 19%;
+        }
+    </style>
+    <title>AgriGoal Website</title>
+</head>
+<body>
+    <!-- Start Header/Navigation -->
+    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h2>AgriGoal</h2><h6>The Best Service.</h6><span></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="productDropdown">
+                            <a class="dropdown-item" href="vegetable.html">Vegetable</a>
+                            <a class="dropdown-item" href="fruit.html">Fruits</a>
+                            <a class="dropdown-item" href="sapling.html">Sapling</a>
+                            <a class="dropdown-item" href="fertilizer.html">Fertilizer</a>
+                            <a class="dropdown-item" href="tools.html">Tools</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-link" href="aboutus.html">About us</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="blogs.html">Blog</a></li>
+                    <li><a class="nav-link" href="Guidance.html">Guidance</a></li>
+                    <li><a class="nav-link" href="contact.php">Contact us</a></li>
+                </ul>
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">
+                          <i class="fas fa-user"></i> 
+                        </a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header/Navigation -->
+
+    <div class="hero">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5">
+              <div class="intro-excerpt">
+                <h1>Welcome to the Place Where <span class="d-block">Natural Flavour is Born.</span></h1>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="hero-img-wrap">
+                <img src="img/home.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Start Product Section -->
+      
+      <div class="product-section">
+        <div class="container">
+          <div class="row">
+            <h1><span class="d-block">Shop by Category.</span></h1>
+             <!-- Start Column 1 -->
+            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+              <a class="product-item" href="vegetable.html">
+                <img src="img/vegetablee.jpeg" class="img-fluid product-thumbnail">
+                <h2 class="product-title">Organic Vegetable</h2>
+                
+              </a>
+            </div> 
+            <!-- End Column 1 -->
+    
+            <!-- Start Column 2 -->
+            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+              <a class="product-item" href="fruit.html">
+                <img src="img/basket.jpeg" class="img-fluid product-thumbnail">
+                <h2 class="product-title">Fresh Fruits</h2>
+              </a>
+            </div>
+            <!-- End Column 2 -->
+               
+             <!-- Start Column 3 -->
+            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+              <a class="product-item" href="fertilizer.html">
+                <img src="img/fertilizer.jpg" class="img-fluid product-thumbnail">
+                <h2 class="product-title">Chemical Fertilizer</h2>
+              </a>
+            </div> 
+            <!-- End Column 3 -->
+    
+            <!-- Start Column 4 -->
+            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+              <a class="product-item" href="Sapling.html">
+                <img src="img/sapling.jpg" class="img-fluid product-thumbnail">
+              <center><h2 class="product-title">Sapling</h2></center>
+              </a>
+            </div>
+            <!-- End Column 4 -->
+                <!-- Start Column 5 -->
+        <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+    <a class="product-item" href="tools.html">
+        <img src="img/tool.jpg" class="img-fluid product-thumbnail">
+      <h2 class="product-title">Essential Tools</h2>
+      </a>
+    </div> 
+    <!-- End Column 5 -->
+    </div>
+    </div>
+    </div>
+    <!-- End Product Section -->
+     <!-- Start Blogs Section -->
+<section class="blogs-section">
+    <div class="container">
+        
+        <center><div class="intro-excerpt"><br>
+            <h4><span class="d-block">Stay Updated with Our Blog.</span></h4>
+          </div></center>
+        <!-- Blog Posts Row -->
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="blog-item">
+                    <img src="img/organic.jpg" class="img-fluid blog-image" alt="Blog Image 1">
+                    <h3 class="blog-title">Understanding Organic Farming</h3>
+                    <p class="blog-summary">Dive into the principles of organic farming and how it benefits the environment.</p>
+                    <a href="blogs.html" class="read-more">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="blog-item">
+                    <img src="img/ipm.jpeg" class="img-fluid blog-image" alt="Blog Image 3">
+                    <h3 class="blog-title">Effective Pest Control Methods</h3>
+                    <p class="blog-summary">Learn about sustainable pest control techniques to protect your crops.</p>
+                    <a href="blogs.html" class="read-more">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 3: Climatic Changes -->
+<div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div class="blog-item">
+        <img src="img/climate.jpeg" class="img-fluid blog-image" alt="Climatic Changes">
+        <h3 class="blog-title">Impact of Climatic Changes on Agriculture</h3>
+        <p class="blog-summary">Understanding how climate variability affects crop yields and farming practices.</p>
+        <a href="blogs.html" class="read-more">Read More</a>
+    </div>
+</div>
+
+<!-- Blog Post 4: Urban Farming -->
+<div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div class="blog-item">
+        <img src="img/urban.jpeg" class="img-fluid blog-image" alt="Urban Farming">
+        <h3 class="blog-title">Urban Farming: Growing Green in Cities</h3>
+        <p class="blog-summary">Exploring the benefits and challenges of cultivating crops in urban environments.</p>
+        <a href="blogs.html" class="read-more">Read More</a>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+<!-- End Blogs Section -->
+
+<!-- Footer Section -->
+<footer class="footer-section" style="background-color: #011222; padding: 30px 0; color: #f8f9fa;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo Section -->
+            <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                <img src="img/logo.jpg" class="img-fluid" alt="AgriGoal Logo" 
+                     style="border-radius: 50%; width: 150px; height: 150px; border: 3px solid #f8f9fa;">
+                <p style="margin-top: 15px; font-size: 16px; color: #ffc107; font-style: italic;">
+                    "Empowering Agriculture, Cultivating Growth"
+                </p>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-lg-4 text-center">
+                <h3 style="margin-bottom: 20px; color: #f8f9fa;">Quick Links</h3>
+                <ul class="list-unstyled" style="padding: 0; margin: 0; list-style: none;">
+                    <li style="margin-bottom: 10px;"><a href="aboutus.html" style="color: #ffc107; text-decoration: none;">About Us</a></li>
+                    <li style="margin-bottom: 10px;"><a href="vegetable.html" style="color: #ffc107; text-decoration: none;">Product</a></li>
+                    <li style="margin-bottom: 10px;"><a href="blogs.html" style="color: #ffc107; text-decoration: none;">Blog</a></li>
+                    <li style="margin-bottom: 10px;"><a href="services.html" style="color: #ffc107; text-decoration: none;">Services</a></li>
+                    <li style="margin-bottom: 10px;"><a href="Guidance.html" style="color: #ffc107; text-decoration: none;">Guidance</a></li>
+                    <li><a href="contact.php" style="color: #ffc107; text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Copyright Section -->
+            <div class="col-lg-4 text-center" style="padding-right: 50px; padding-left: 50px;"></div>
+            <div class="row">
+                <div class="col-12 text-center" style="padding-top: 50px;">
+                    <p style="font-size: 14px; justify-items:center; color: #adb5bd;">&copy; 2025 AgriGoal. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer Section -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

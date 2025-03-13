@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+            color: #000 !important; 
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        header h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .guidance {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        /* .guide-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.2s;
+            flex: 1 1 100%;
+            box-sizing: border-box;
+        } */
+        .guide-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.guide-image {
+    float: right; /* Float image to the left */
+    width: 37%; /* Adjust the size of the image */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 9px;
+}
+
+.guide-title {
+    font-size: 1.8em;
+    margin: 0;
+    color: #333;
+}
+
+.guide-summary {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.guide-item:hover {
+    transform: scale(1.02);
+}
+
+
+    </style>
+    <title>AgriGoal Website</title>
+</head>
+<body>
+    <!-- Start Header/Navigation -->
+    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h2>AgriGoal</h2><h6>The Best Service.</h6><span></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="productDropdown">
+                            <a class="dropdown-item" href="vegetable.html">Vegetable</a>
+                            <a class="dropdown-item" href="fruit.html">Fruits</a>
+                            <a class="dropdown-item" href="sapling.html">Sapling</a>
+                            <a class="dropdown-item" href="fertilizer.html">Fertilizer</a>
+                            <a class="dropdown-item" href="tools.html">Tools</a></div>
+                    </li>
+                    <li><a class="nav-link" href="aboutus.html">About us</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="blogs.html">Blog</a></li>
+                    <li><a class="nav-link" href="Guidance.html">Guidance</a></li>
+                    <li><a class="nav-link" href="contact.php">Contact us</a></li>
+                </ul>
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">
+                          <i class="fas fa-user"></i> 
+                        </a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header/Navigation -->
+
+    <div class="container">
+        <header>
+            <h1>Guidance & Resources</h1>
+            <h2>"Innovative Solutions for Modern Agriculture."</h2>
+        </header>
+
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/organic.jpg" alt="Organic Farming" class="guide-image">
+                <h2 class="guide-title">How to Start Organic Farming:</h2>
+                <p class="guide-summary"><b>Start your journey in organic farming with our step-by-step guide, including soil preparation, crop selection, and pest management.</b></p>
+                <p>Organic farming begins with understanding the soil. Prepare your soil with natural compost and fertilizers to create a nutrient-rich base. Choose crops suited to your climate and soil type to ensure a successful harvest. Implement integrated pest management techniques to protect your crops while maintaining soil health.</p>
+                <p>Next, consider the benefits of using organic seeds and planting techniques. Organic seeds are less likely to carry diseases and pests. Planting cover crops can help improve soil structure and fertility. Additionally, consider incorporating practices like mulching to conserve moisture and suppress weeds.</p>
+                <p>Regular monitoring and record-keeping are essential. Track your soil health, crop growth, and pest activity. This information will help you make informed decisions and adjustments to your farming practices. Engage with local organic farming communities and resources for ongoing support and knowledge.</p>
+            </article>
+            <!-- Repeat similar structure for other guide items -->
+        </section>
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/sustaninability.jpeg" alt="Sustainable Agriculture" class="guide-image">
+                <h2 class="guide-title">Best Practices for Sustainable Agriculture:</h2>
+                <p class="guide-summary"><b>Learn about sustainable practices to maintain soil health, conserve water, and increase efficiency in your farming operations.</b></p>
+                <p>Maintain soil health with practices such as crop rotation, which prevents nutrient depletion and reduces pest buildup. Implement water-saving techniques like drip irrigation to minimize waste. Adopt energy-efficient practices, such as using renewable energy sources, to reduce the environmental impact of your farming operations.</p>
+                <p>Additionally, consider incorporating agroforestry into your farming practices. This method integrates trees and shrubs into crop and livestock systems, which can enhance biodiversity, improve soil structure, and provide additional income sources. Agroforestry systems can also offer windbreaks and reduce soil erosion.</p>
+                <p>Another key aspect is the use of organic mulches to retain soil moisture and reduce erosion. Incorporate green manures, which are cover crops grown specifically to be tilled into the soil to enhance its fertility. Practices like reduced tillage can further improve soil health by minimizing soil disturbance and preserving soil organic matter.</p>
+                <p>Moreover, explore the use of precision agriculture techniques. These methods utilize technology such as GPS and sensors to optimize field-level management regarding crop farming. Precision agriculture helps in applying inputs more efficiently, reducing waste, and improving crop yields.</p>
+            </article>
+        </section>
+        
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/pest.jpeg" alt="Pest Control" class="guide-image">
+                <h2 class="guide-title">Effective Pest Control Methods:</h2>
+                <p class="guide-summary"><b>Discover eco-friendly methods for pest control, including biological controls <br>and organic pesticides.</b></p>
+                <p>Use natural predators like ladybugs and lacewings to control pest populations. Implement cultural practices such as rotating crops and using barrier methods to reduce pest problems. When necessary, opt for organic pesticides derived from natural sources to manage pests while minimizing environmental impact.</p>
+                <p>Integrate companion planting to deter pests and enhance plant health. For example, planting marigolds alongside vegetables can repel nematodes. Consider also using neem oil and insecticidal soaps as natural alternatives to chemical pesticides. Regularly monitoring your plants and maintaining good garden hygiene can prevent pest infestations before they become severe.</p>
+                <p>Utilize physical controls such as traps and barriers to manage pest populations. Sticky traps can help catch flying insects, while barriers like row covers can protect plants from pests. Explore the use of biopesticides derived from natural organisms to target specific pests without harming beneficial insects.</p>
+                <p>Adopt integrated pest management (IPM) strategies that combine biological, cultural, and mechanical controls with minimal use of chemical controls. This approach reduces reliance on any single method and helps in managing pest populations sustainably.</p>
+            </article>
+        </section>
+        
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/composting.jpeg" alt="Composting" class="guide-image">
+                <h2 class="guide-title">Composting Techniques for Organic Farming:</h2>
+                <p class="guide-summary"><b>Learn about different composting techniques, including traditional composting, vermicomposting, and bokashi composting.</b></p>
+                <p>Create compost by layering organic waste like kitchen scraps and yard debris. Use worms for vermicomposting to speed up decomposition. Bokashi composting uses a fermentation process to break down food waste, making it a great option for urban gardeners.</p>
+                <p>Consider adding green manures to your compost to enhance nutrient content. Green manures, such as clover or rye, can be grown specifically to be incorporated into the compost pile, enriching the compost with additional nutrients. Additionally, maintaining proper moisture and aeration in your compost pile will speed up the decomposition process and result in high-quality compost.</p>
+                <p>Explore different composting methods like hot composting, which accelerates decomposition by maintaining high temperatures. This method can produce compost faster compared to traditional composting. Another method is sheet composting, where organic materials are spread on the soil surface and allowed to decompose in place.</p>
+                <p>Incorporate composting systems like tumblers or bins to simplify the composting process and make it more manageable. These systems can help in aerating the compost and controlling the composting environment, leading to faster and more efficient compost production.</p>
+            </article>
+        </section>
+        
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/water mgmt.jpeg" alt="Water Management" class="guide-image">
+                <h2 class="guide-title">Water Management Strategies:</h2>
+                <p class="guide-summary"><b>Optimize your water use with irrigation systems, rainwater harvesting, and soil moisture monitoring techniques.</b></p>
+                <p>Implement drip irrigation to deliver water directly to the plant roots. Set up rain barrels to collect and store rainwater for later use. Use soil moisture sensors to monitor and adjust irrigation schedules based on real-time data.</p>
+                <p>Incorporate water-efficient practices such as mulching to reduce evaporation and improve soil moisture retention. Explore the use of greywater systems to recycle water from sinks and showers. Implementing these strategies will not only conserve water but also promote a more sustainable and resilient farming system.</p>
+                <p>Consider advanced irrigation technologies like sprinkler systems with timers or soil moisture-based controllers to automate watering schedules and reduce water wastage. Utilize techniques like furrow irrigation for row crops to ensure efficient water use and minimize runoff.</p>
+                <p>Adopt rainwater harvesting systems to collect and store rainwater for irrigation purposes. This not only reduces dependency on municipal water supplies but also helps in managing water resources more sustainably. Implementing contour plowing and terracing can also help in managing runoff and improving water infiltration into the soil.</p>
+            </article>
+        </section>
+        
+        <section class="guidance">
+            <article class="guide-item">
+                <img src="img/soil.jpeg" alt="Soil Health" class="guide-image">
+                <h2 class="guide-title">Maintaining Soil Health:</h2>
+                <p class="guide-summary"><b>Explore methods to maintain and enhance soil health through crop rotation, cover cropping, and organic amendments.</b></p>
+                <p>Rotate crops each season to prevent soil depletion and reduce pest and disease buildup. Use cover crops to add organic matter and nutrients to the soil. Apply organic amendments like compost or manure to improve soil structure and fertility.</p>
+                <p>In addition to crop rotation and cover cropping, consider practices such as reduced tillage and incorporating biochar into your soil. Reduced tillage helps to maintain soil structure and reduce erosion, while biochar can improve soil fertility and water retention. Regular soil testing will also help in adjusting your soil management practices based on current nutrient levels and pH.</p>
+                <p>Implement conservation tillage practices like no-till or minimum tillage to protect soil from erosion and degradation. Use green manures and compost teas to boost soil microbial activity and nutrient availability. Additionally, practice soil conservation techniques such as building terraces and creating buffer zones to manage soil erosion and runoff.</p>
+                <p>Utilize organic soil amendments like kelp meal and fish emulsion to provide essential nutrients and enhance soil health. Incorporate practices like agroecology to integrate ecological principles into farming systems, promoting biodiversity and ecosystem services that support soil health and productivity.</p>
+            </article>
+        </section>
+        
+
+          </div>
+<!-- Footer Section -->
+<footer class="footer-section" style="background-color: #011222; padding: 30px 0; color: #f8f9fa;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo Section -->
+            <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                <img src="img/logo.jpg" class="img-fluid" alt="AgriGoal Logo" 
+                     style="border-radius: 50%; width: 150px; height: 150px; border: 3px solid #f8f9fa;">
+                <p style="margin-top: 15px; font-size: 16px; color: #ffc107; font-style: italic;">
+                    "Empowering Agriculture, Cultivating Growth"
+                </p>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-lg-4 text-center">
+                <h3 style="margin-bottom: 20px; color: #f8f9fa;">Quick Links</h3>
+                <ul class="list-unstyled" style="padding: 0; margin: 0; list-style: none;">
+                    <li style="margin-bottom: 10px;"><a href="aboutus.html" style="color: #ffc107; text-decoration: none;">About Us</a></li>
+                    <li style="margin-bottom: 10px;"><a href="vegetable.html" style="color: #ffc107; text-decoration: none;">Product</a></li>
+                    <li style="margin-bottom: 10px;"><a href="blogs.html" style="color: #ffc107; text-decoration: none;">Blog</a></li>
+                    <li style="margin-bottom: 10px;"><a href="services.html" style="color: #ffc107; text-decoration: none;">Services</a></li>
+                    <li style="margin-bottom: 10px;"><a href="Guidance.html" style="color: #ffc107; text-decoration: none;">Guidance</a></li>
+                    <li><a href="contact.php" style="color: #ffc107; text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Copyright Section -->
+            <div class="col-lg-4 text-center" style="padding-right: 50px; padding-left: 50px;"></div>
+            <div class="row">
+                <div class="col-12 text-center" style="padding-top: 50px;">
+                    <p style="font-size: 14px; justify-items:center; color: #adb5bd;">&copy; 2025 AgriGoal. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+  
+  
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  </html>
+  
